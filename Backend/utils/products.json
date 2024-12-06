@@ -1,0 +1,354 @@
+[{
+    "name":"Brooke's Leather Boots",
+    "details": "Handmade by our Head Tailor, Brooke, these boots will fit your feet like a glove",
+    "sku": "STR010",
+    "category": "shoes",
+    "tags": ["woman", "slow fashion", "featured"],
+    "price": 124.99,
+    "img": "STR010.jpg"
+},
+{
+    "name":"Brooke's Flat Shoes",
+    "details": "Casual sporty with a twist of elegant. These shoes are handmade by our Head Tailor, Brooke, and her personal favourite",
+    "sku": "DEX300",
+    "category": "shoes",
+    "tags": ["woman", "slow fashion", "featured"],
+    "price": 114.99,
+    "img": "DEX300.jpg"
+},{
+    "name":"Saint Laurent Tennis Shoes, White/Pink",
+    "details": "Classic Saint Laurent flat shoes, glittery pink on their back to let people know you can be sober at your own terms",
+    "sku": "CON783",
+    "category": "shoes",
+    "tags": ["woman"],
+    "price": 89.99,
+    "img": "CON783.jpg"
+},{
+    "name":"X-90, Pink",
+    "details": "Comfortable for your casual stroll, performant for your pro-level dunking",
+    "sku": "INT900",
+    "category": "shoes",
+    "tags": ["woman"],
+    "price": 89.99,
+    "img": "INT900.jpg"
+},{
+    "name":"Nike Air, Black",
+    "details": "Flat, black, branded, and completely unimaginative. Be like everyone else with these",
+    "sku": "WIS288",
+    "category": "shoes",
+    "tags": ["man"],
+    "price": 109.99,
+    "img": "WIS288.jpg"
+},{
+    "name":"Nike Transpire, White/Orange",
+    "details": "For legal reasons, these shoes can only be worn in Gozo",
+    "sku": "CHA090",
+    "category": "shoes",
+    "tags": ["man"],
+    "price": 19.99,
+    "img": "CHA090.jpg"
+},{
+    "name":"Nike Transpire, White",
+    "details": "Exceptional running shoes made just for your fast needs",
+    "sku": "STR111",
+    "category": "shoes",
+    "tags": ["man", "woman"],
+    "price": 69.99,
+    "img": "STR111.jpg"
+},{
+    "name":"Nike Pea Pod",
+    "details": "Your feet will be like two peas in a pod",
+    "sku": "DEX606",
+    "category": "shoes",
+    "tags": ["man", "woman"],
+    "price": 0.99,
+    "img": "DEX606.jpg"
+},{
+    "name":"Funky Town",
+    "details": "Gotta make a move to a town that's right for you",
+    "sku": "CON594",
+    "category": "shoes",
+    "tags": ["man", "woman"],
+    "price": 119.99,
+    "img": "CON594.jpg"
+},{
+    "name":"Nike Air, Pastel",
+    "details": "Do you want to wear the trans flag? Be an allied to the community with these on",
+    "sku": "INT733",
+    "category": "shoes",
+    "tags": ["man", "woman"],
+    "price": 149.99,
+    "img": "INT733.jpg"
+},{
+    "name":"Nike Camel",
+    "details": "Appear like a IPA selling hipster with these bad boys at your feet",
+    "sku": "WIS099",
+    "category": "shoes",
+    "tags": ["man"],
+    "price": 129.99,
+    "img": "WIS099.jpg"
+},{
+    "name":"Vans, Vinaccia",
+    "details": "Skate shoes. Great shoes",
+    "sku": "DEX000",
+    "category": "shoes",
+    "tags": ["man", "woman"],
+    "price": 89.99,
+    "img": "DEX000.jpg"
+},{
+    "name":"Nike Free, Red",
+    "details": "Feel like you are not wearing shoes when you buy these and we don't deliver",
+    "sku": "INT908",
+    "category": "shoes",
+    "tags": ["man", "woman"],
+    "price": 189.99,
+    "img": "INT908.jpg"
+},{
+    "name":"KiiKii Original",
+    "details": "Straight Outta Akihabara, this t-shirt lets everyone know you love Japan",
+    "sku": "TEE765",
+    "category": "t-shirts",
+    "tags": ["man", "woman"],
+    "price": 29.99,
+    "img": "TEE765.jpg"
+},{
+    "name":"Hiking T-Shirt",
+    "details": "Let everyone know you like hikes. Warning: the product is not suitable for hikes",
+    "sku": "TEE319",
+    "category": "t-shirts",
+    "tags": ["man", "woman"],
+    "price": 39.99,
+    "img": "TEE319.jpg"
+},{
+    "name":"White Letters, Black Field",
+    "details": "Unclear message on canvas. Mysterious and jarring",
+    "sku": "SHI666",
+    "category": "t-shirts",
+    "tags": ["man", "woman"],
+    "price": 29.99,
+    "img": "SHI666.jpg"
+},{
+    "name":"Black Shirt",
+    "details": "Achieve your post-modern, pretentious style with this simple shirt",
+    "sku": "SHI999",
+    "category": "t-shirts",
+    "tags": ["man", "woman", "slow fashion"],
+    "price": 99.99,
+    "img": "SHI999.jpg"
+},{
+    "name":"Just Culture",
+    "details": "Culture is sold separately",
+    "sku": "CHA333",
+    "category": "t-shirts",
+    "tags": ["man", "woman"],
+    "price": 39.99,
+    "img": "CHA333.jpg"
+},{
+    "name":"Blank",
+    "details": "We forgot to print stuff on this stock of white shirts",
+    "sku": "CHA301",
+    "category": "t-shirts",
+    "tags": ["man", "woman", "slow fashion"],
+    "price": 89.99,
+    "img": "CHA301.jpg"
+},{
+    "name":"Comfortable Soldiers",
+    "details": "Comfortable, stretchy, resistant, with pockets, pink. Enough said",
+    "sku": "SIU555",
+    "category": "trousers",
+    "tags": ["woman"],
+    "price": 69.99,
+    "img": "SIU555.jpg"
+},{
+    "name":"Denim Jeans",
+    "details": "Denim jeans have been in vogue since they came out, so here's a pair for you",
+    "sku": "SIU809",
+    "category": "trousers",
+    "tags": ["man", "slow fashion"],
+    "price": 44.99,
+    "img": "SIU809.jpg"
+},{
+    "name":"Baggy Denim Jeans",
+    "details": "Own the streets with these punky (yet hipster) jeans",
+    "sku": "SIS001",
+    "category": "trousers",
+    "tags": ["woman", "slow fashion"],
+    "price": 64.99,
+    "img": "SIS001.jpg"
+},{
+    "name":"Del Rey's",
+    "details": "Literally stolen from Lana's closet",
+    "sku": "SIS010",
+    "category": "trousers",
+    "tags": ["woman", "featured"],
+    "price": 399.98,
+    "img": "SIS010.jpg"
+},{
+    "name":"Risvoltino",
+    "details": "Start a podcast about AI, Crypto, and grind mindset",
+    "sku": "BRO010",
+    "category": "trousers",
+    "tags": ["man"],
+    "price": 99.99,
+    "img": "BRO010.jpg"
+},{
+    "name":"Indie LoFi",
+    "details": "Complete your LoFi HipHop beats to chill/study/relax to style with this original garment",
+    "sku": "APK001",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 34.99,
+    "img": "APK001.jpg"
+},{
+    "name":"Raiden Straw Hat",
+    "details": "Finish 'Em with this Asian, handmade twist to your look",
+    "sku": "APK002",
+    "category": "hats",
+    "tags": ["man", "woman", "slow fashion"],
+    "price": 44.99,
+    "img": "APK002.jpg"
+},{
+    "name":"Beanie, Yellow",
+    "details": "Cozy vibes and bright colours. Gotta love them handmade",
+    "sku": "APK003",
+    "category": "hats",
+    "tags": ["man", "woman", "slow fashion", "featured"],
+    "price": 34.99,
+    "img": "APK003.jpg"
+},{
+    "name":"Beanie, Black",
+    "details": "Pretend to be a skater, an indie/experimental/noise artist, or a climber with this one piece of clothing",
+    "sku": "CSY357",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 8.99,
+    "img": "CSY357.jpg"
+},{
+    "name":"MAGA",
+    "details": "Make America Great Again with this wonderful hat 100% Made in Taiwan",
+    "sku": "CSY623",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 19.99,
+    "img": "CSY623.jpg"
+},{
+    "name":"Palm Beach Cap",
+    "details": "There is no better way to enjoy an alternative music concert",
+    "sku": "VBN555",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 24.99,
+    "img": "VBN555.jpg"
+},{
+    "name":"Smooth Criminal, Grey",
+    "details": "You've been hit by- You've been struck by- A smooth criminal",
+    "sku": "CLI999",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 44.99,
+    "img": "CLI999.jpg"
+},{
+    "name":"Cap, Black",
+    "details": "A staple in any subculture",
+    "sku": "CLI998",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 14.99,
+    "img": "CLI998.jpg"
+},{
+    "name":"Rimmed Beanie, Black",
+    "details": "To take your stoner/skater look up two whole notches",
+    "sku": "CLI000",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 34.99,
+    "img": "CLI000.jpg"
+},{
+    "name":"Cap, Blue",
+    "details": "Just a blue cap with stuff sewed onto it",
+    "sku": "SKD400",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 24.99,
+    "img": "SKD400.jpg"
+},{
+    "name":"Beanie, Orange",
+    "details": "Look like an unpeeled orange with this simple trick",
+    "sku": "STD001",
+    "category": "hats",
+    "tags": ["man", "woman"],
+    "price": 19.99,
+    "img": "STD001.jpg"
+},{
+    "name":"Skull&Roses Hoodie, Yellow",
+    "details": "Casual edgy while still seemingly deep",
+    "sku": "HOO200",
+    "category": "hoodies",
+    "tags": ["man", "woman"],
+    "price": 84.99,
+    "img": "HOO200.jpg"
+},{
+    "name":"Wise Minds Hoodie, Black",
+    "details": "A circular logo on the back of a black hoodie. Groundbreaking",
+    "sku": "HOO300",
+    "category": "hoodies",
+    "tags": ["man", "woman"],
+    "price": 94.99,
+    "img": "HOO300.jpg"
+},{
+    "name":"Regular Hoodie, Black",
+    "details": "Nothing to see here, just a regular, black hoodie",
+    "sku": "HOO304",
+    "category": "hoodies",
+    "tags": ["man", "woman"],
+    "price": 79.99,
+    "img": "HOO304.jpg"
+},{
+    "name":"Audere Hoodie, White",
+    "details": "Audere: from latin 'to dare'. Be that person who knows what their shirt says",
+    "sku": "WHO777",
+    "category": "hoodies",
+    "tags": ["man", "woman"],
+    "price": 79.99,
+    "img": "WHO777.jpg"
+},{
+    "name":"Hoodie, Grey",
+    "details": "The truest, most timeless classic. No logo, no brand name, no captions. Just a good ol' grey hoodie",
+    "sku": "WHO666",
+    "category": "hoodies",
+    "tags": ["man", "woman", "slow fashion"],
+    "price": 99.99,
+    "img": "WHO666.jpg"
+},{
+    "name":"Jacket, Blue",
+    "details": "Kimberly left this jacket at the office, so now it's the property of the company",
+    "sku": "JAK001",
+    "category": "jackets",
+    "tags": ["woman"],
+    "price": 149.99,
+    "img": "JAK001.jpg"
+},{
+    "name":"Jacket, Camel",
+    "details": "A bit peculiar, but it might match your jeans",
+    "sku": "JAK404",
+    "category": "jackets",
+    "tags": ["man", "slow fashion"],
+    "price": 159.99,
+    "img": "JAK404.jpg"
+},{
+    "name":"Leather Jacket, Black",
+    "details": "If you liked watching Nana or Sword Art Online, you will love this one",
+    "sku": "JAK999",
+    "category": "jackets",
+    "tags": ["woman", "slow fashion"],
+    "price": 189.99,
+    "img": "JAK999.jpg"
+},{
+    "name":"Winter Jacket, Purple",
+    "details": "Not for mimetic purposes",
+    "sku": "JAK002",
+    "category": "jackets",
+    "tags": ["woman"],
+    "price": 204.99,
+    "img": "JAK002.jpg"
+}]

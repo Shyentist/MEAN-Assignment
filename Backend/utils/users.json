@@ -1,0 +1,16 @@
+[{
+  "name": "Giorno",
+  "surname": "Giovanna",
+  "email": "daygiovanna@gmail.com",
+  "role": "client",
+  "pw": "$2a$10$.cUAphq8CUnjOj0E55XSE.DsqGvXWEeGO522ovgW8ZmMW2A4DZOHC",
+  "cart": []
+},
+{
+  "name": "Pico",
+  "surname": "Buonomo",
+  "email": "picobuonomo@hotmail.it",
+  "role": "admin",
+  "pw": "$2a$10$98zQMqrqCZ4OSjeKw5/j4.JttdFifBgOkvF4IosTKV26BX9Vv4Gmi",
+  "cart": []
+}]
