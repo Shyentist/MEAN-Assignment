@@ -1,0 +1,19 @@
+h5 {
+    height: 40px;
+}
+
+.card-details {
+    height: 90px;
+    overflow: hidden;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.btn {
+    padding: 3px;
+}

@@ -1,0 +1,75 @@
+<div class="product-container container my-5">
+
+  <div class="my-row">
+
+    <!-- Category filter -->
+    <div>
+      <label for="categoryFilter">Category:</label>
+      <select id="categoryFilter" class="form-select" [(ngModel)]="selectedCategory" (change)="onCategorySelect($event)">
+        <option value="">All</option>
+        <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+      </select>
+    </div>
+
+  </div>
+
+  <div class="my-row">
+  
+    <!-- Tag filter -->
+    <div class="checkboxes-container">
+      <label>Tags:</label>
+      <div class="checkbox-group">
+        <label *ngFor="let tag of tags" class="checkbox-label">
+          <input type="checkbox" [value]="tag.value" [(ngModel)]="tag.selected" (change)="onTagSelect()">
+            {{ tag.value }}
+        </label>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="my-row">
+
+    <!-- Price filter -->
+    <div class="range-input">
+      <label>Price:</label>
+      <input type="number" [(ngModel)]="minPrice" (input)="onPriceRangeChange()" placeholder="Min Price">
+      <input type="number" [(ngModel)]="maxPrice" (input)="onPriceRangeChange()" placeholder="Max Price">
+    </div>
+    
+  </div>
+
+  <div class="my-row">
+
+    <!-- Name filter -->
+    <div class="text-input">
+      <label>Name:</label>
+      <input type="text" [(ngModel)]="productNameFilter" (input)="onProductNameChange()" placeholder="Search by Name">
+    </div>
+  
+  </div>
+
+  <div class="my-row">
+    <!-- Sorting -->
+    <div>
+      <label for="sorting">Sort By:</label>
+      <select id="sorting" [(ngModel)]="sorting" (ngModelChange)="sortProducts()">
+        <option value="asc">Price: Low to High</option>
+        <option value="desc">Price: High to Low</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="product-row">
+    <div *ngFor="let product of onPageProducts" class="product-card">
+      <app-product-card [product]="product"></app-product-card>
+    </div>
+  </div>
+
+  <div class="pagination">
+    <button class="btn btn-primary shadow-0 me-1" [disabled]="currentPage === 1" (click)="prevPage()">Prev</button>
+    <span>{{ currentPage }} / {{ totalPages }}</span>
+    <button class="btn btn-primary shadow-0 me-1" [disabled]="currentPage === totalPages" (click)="nextPage()">Next</button>
+  </div>
+  
+</div>

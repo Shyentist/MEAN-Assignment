@@ -1,0 +1,18 @@
+<section class="container my-5">
+  <header class="mb-4">
+    <h3>Your cart</h3>
+  </header>
+  <div *ngIf="products.length !== 0">
+    <div class="product-row" *ngIf="products.length !== 0">
+      <div *ngFor="let product of products" class="product-card">
+        <app-cart-product-card [product]="product"></app-cart-product-card>
+      </div>
+    </div>
+    <div style="text-align:center; ">
+      <button type="button" class="btn btn-primary shadow-0 me-1" style="font-weight: bold;">Checkout: {{ checkOutPrice }}€</button>
+    </div>
+  </div>
+  <div *ngIf="products.length === 0">
+    <p>Your cart is empty.</p>
+  </div>
+</section>

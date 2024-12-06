@@ -1,0 +1,79 @@
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6px 0;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  width:100%;
+  margin-bottom: 20px;
+}
+
+app-product-card {
+    width: 23%;
+}
+  
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .product-row {
+    grid-template-columns: 1fr;
+  }
+  
+  app-product-card {
+    width: 100%;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  grid-column: 1 / -1;
+}
+
+.pagination button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.checkboxes-container {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin: 0 6px;
+}
+
+.checkbox-group {
+  display: flex;
+}
+
+.checkbox-label {
+  margin-right: 10px;
+}
+
+.range-input input {
+  margin-right: 6px;
+  width: 30%;
+  border-radius: 6px;
+}
+
+.text-input input {
+  width: 70%;
+  border-radius: 6px;
+}

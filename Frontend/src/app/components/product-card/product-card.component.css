@@ -1,0 +1,30 @@
+h5 {
+    height: 40px;
+}
+
+.card-details {
+    height: 90px;
+    overflow: hidden;
+}
+
+.card-footer {
+    background-color: transparent;
+}
+
+.btn {
+    font-weight: bold;
+    width: 100%;
+}
+
+.tags {
+    display: inline-block;
+    color: #8c8c8c;
+    height: 50px
+}
+
+.alert-container {
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 9999; /* Ensure the alert is displayed above other elements */
+  }

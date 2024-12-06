@@ -1,0 +1,24 @@
+<section>
+    <div class="container my-5">
+      <header class="mb-4">
+        <h2>This is where we would put our incredible <span>"-X% SALE!!!"</span> if we had one!</h2>
+        <h3>Featured products</h3>
+      </header>
+  
+      <div class="product-container container my-5">
+      
+        <div class="product-row">
+          <div *ngFor="let product of onPageProducts" class="product-card">
+            <app-product-card [product]="product"></app-product-card>
+          </div>
+        </div>
+      
+        <div class="pagination">
+          <button class="btn btn-primary shadow-0 me-1" [disabled]="currentPage === 1" (click)="prevPage()">Prev</button>
+          <span>{{ currentPage }} / {{ totalPages }}</span>
+          <button class="btn btn-primary shadow-0 me-1" [disabled]="currentPage === totalPages" (click)="nextPage()">Next</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,125 @@
+<div class="my-container">
+    <header class="mb-4">
+        <h3>Admin panel</h3>
+    </header>
+    <h4>Manage tags</h4>
+    <div class="table-container">
+      <div class="tag-pills">
+        <div *ngFor="let tag of uniqueTags; let i = index; trackBy: trackByFn">
+          <div *ngIf="uniqueTags[i]" class="tag-pill" >
+            <input type="text" [(ngModel)]="uniqueTags[i]" (blur)="updateTags()" (keyup.enter)="updateTags()">
+            <button class="delete-btn" (click)="deleteTag(i); updateTags()">&times;</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <h4>Add product</h4>
+    <div id="add-product">
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Details</th>
+              <th>Category</th>
+              <th>Tags</th>
+              <th>Price</th>
+              <th>SKU (required)</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <input type="text" placeholder="Name" [(ngModel)]="nameToAdd">
+              </td>
+              <td>
+                <input type="text" placeholder="Details" [(ngModel)]="detailsToAdd">
+              </td>
+              <td>
+                <select [(ngModel)]="categoryToAdd">
+                  <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+                </select>
+              </td>
+              <td>
+                <input type="text" placeholder="Tags (comma-separated)" [(ngModel)]="tagsToAdd">
+              </td>
+              <td>
+                <input type="number" placeholder="Price" [(ngModel)]="priceToAdd">
+              </td>
+              <td>
+                <input type="text" placeholder="SKU" [(ngModel)]="skuToAdd">
+              </td>
+              <td>
+                <button class="btn btn-primary shadow-0 me-1" (click)="addProduct()">
+                  Add
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h4>Manage products</h4>
+      <div class="table-container">
+        <div class="actions">
+          <button (click)="updateSelectedProducts()"  class="btn btn-primary shadow-0 me-1">Update Selected</button>
+          <button (click)="deleteSelectedProducts()"  class="btn btn-danger shadow-0 me-1">Delete Selected</button>
+        </div>
+        <hr>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Details</th>
+            <th>Category</th>
+            <th>Tags</th>
+            <th>Price</th>
+            <th>SKU</th>
+            <th>Image<br>(&lt; 10MB)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products" id="{{product._id}}">
+            <td class="checkbox-cell">
+              <input type="checkbox" [checked]="isSelected(product)" (change)="toggleProductSelection(product)">
+            </td>
+            <td>
+              <input type="text" [(ngModel)]="product.name" placeholder="Product Name">
+            </td>
+            <td>
+              <input type="text" [(ngModel)]="product.details" placeholder="Product Details">
+            </td>
+            <td>
+              <select [(ngModel)]="product.category">
+                <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+              </select>
+            </td>
+            <td>
+              <input type="text" [(ngModel)]="product.tags" (ngModelChange)="onTagsChange($event, product._id)" placeholder="Product Tags (comma-separated)">
+            </td>
+            <td>
+              <input type="number" [(ngModel)]="product.price" placeholder="Product Price">
+            </td>
+            <td>
+              <div style="margin-top: 10px">
+                <p>{{product.sku}}</p>
+              </div>
+            </td>
+            <td>
+                <div class="pic">
+                    <img src="{{'http://localhost:4000/img/products/' + product.img}}" alt="Product's picture in the database">
+                    <label for="{{product.sku}}" class="btn btn-primary shadow-0 me-1">File</label>
+              <input type="file" (change)="handleFileInput($event, product.sku)" id="{{product.sku}}" name="image_upload" accept=".jpg" style="opacity: 0;">
+                </div> 
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  
