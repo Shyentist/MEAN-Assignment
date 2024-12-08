@@ -1,6 +1,6 @@
 # MEAN Course Assignment
 
-This is my final assignment submission for a Full Stack Developer Bootcamp (MEAN), which achieved top marks. While certain best practices were studied and clarified, for the purposes of this assignment, we were instructed to deviate from them to simplify the examiner's review process.
+This was my final assignment submission for a Full Stack Developer Bootcamp (MEAN), which achieved top marks back in 2023. While certain best practices were studied and clarified, for the purposes of this assignment, we were instructed to deviate from them to simplify the examiner's review process.
 
 ## Tech-Stack & Languages
 
